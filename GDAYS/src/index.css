@@ -289,3 +289,63 @@ letter-spacing: 1px;
 }
 
 /*pra arrumar- navbar centro, fotos, cores*/
+
+/*form*/
+.textoC {
+  font-size: 20px;
+  padding: 2rem;
+}
+.contato-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*fica udo lado do forms*/
+}
+
+.contato-form {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  color: #7c2d12;
+}
+
+.form-group input {
+    margin-bottom: 1.2rem;
+  width: 100%;
+  border: 1px  #f6c28b;
+  border-radius: 10px;
+  padding: 0.9rem;
+  font-size: 1rem;
+  background: #fffdf8;
+}
+
+.form-group textarea {
+    margin-bottom: 1.2rem;
+  width: 100%;
+  border: 1px  #ff8400;
+  border-radius: 10px;
+  padding: 0.9rem;
+  font-size: 1rem;
+  background: #fffdf8;
+}
+
+
+
+.form-btn {
+  background: #f97316;
+  color: white;
+  border: none;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background: #ea580c;
+}
